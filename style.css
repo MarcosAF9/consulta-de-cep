@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #ededed;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;    
+}
+
+label {
+    margin-top: 1.5rem;
+}
+
+input {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
